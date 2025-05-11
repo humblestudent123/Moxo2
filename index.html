@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moxo</title>
+  <link rel="stylesheet" href="script.js">
   <style>
     * {
       margin: 0;
@@ -106,13 +107,26 @@
     <div class="hero-text">
       <h1>"Moxo — место, где встречаются идеи."</h1>
       <p>Новые возможности общения между вами и вашими близкими</p>
-      <button>Начать!</button>
+      <button id="btn">Начать!</button>
     </div>
    <img src="images/set-young-people-using-smartphones_23-2148861137-Photoroom.png" alt="">
   </section>
 
+<script>
+  document.getElementById("btn").addEventListener("click", () => {
+    window.location.href = "sign-in.html";
+  });
+</script>
+
   <footer>
     &copy; 2025 все права защищены.
   </footer>
+
+  
+
+
+
+
+  
 </body>
 </html>
