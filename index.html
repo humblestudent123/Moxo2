@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nike Style Site</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #999;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5rem 3rem;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+
+    .hero-text button {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .hero-text button:hover {
+      background: #333;
+    }
+
+    .hero img {
+      max-width: 45%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Moxo</div>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Обратная связь</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>"Moxo — место, где встречаются идеи."</h1>
+      <p>Новые возможности связи между вами и вашми близкими</p>
+      <button>Начать!</button>
+    </div>
+    <img src="https://i.imgur.com/YO0eQod.png" alt="my image">
+  </section>
+
+  <footer>
+    &copy; 2025 все права защищены.
+  </footer>
+</body>
+</html>
